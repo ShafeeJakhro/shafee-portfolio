@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shafiq ur Rehman — DevOps &amp; Cloud Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="trace-rail"><div class="trace-fill" id="traceFill"></div></div>
+<div class="node" id="n-hero" data-label="boot"></div>
+<div class="node" id="n-about" data-label="about"></div>
+<div class="node" id="n-skills" data-label="skills"></div>
+<div class="node" id="n-projects" data-label="deploy"></div>
+<div class="node" id="n-edu" data-label="education"></div>
+<div class="node" id="n-contact" data-label="contact"></div>
+
+<header>
+  <div class="wrap nav">
+    <div class="logo">Shafiq ur Rehman</div>
+    <nav class="navlinks">
+      <a href="#about">about</a>
+      <a href="#skills">skills</a>
+      <a href="#projects">projects</a>
+      <a href="#education">education</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <button class="burger" id="burgerBtn" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="mobile-menu" id="mobileMenu">
+    <a href="#about">about</a>
+    <a href="#skills">skills</a>
+    <a href="#projects">projects</a>
+    <a href="#education">education</a>
+    <a href="#contact">contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="terminal">
+        <div class="term-bar">
+          <div class="dot r"></div><div class="dot y"></div><div class="dot g"></div>
+          <div class="term-title">shafee@devops: ~</div>
+        </div>
+        <div class="term-body">
+          <div class="term-line"><span class="prompt">$</span> <span class="cmd">whoami</span></div>
+          <div class="term-line out">Shafiq ur Rehman</div>
+          <div class="term-line"><span class="prompt">$</span> <span class="cmd">cat role.txt</span></div>
+          <div class="term-line out">DevOps &amp; Cloud Engineer — building <strong>CI/CD pipelines</strong>,<br>containers, and cloud infrastructure.</div>
+          <div class="term-line"><span class="prompt">$</span> <span class="cmd">status --check</span></div>
+          <div class="term-line out">✓ AWS &nbsp; ✓ Docker &nbsp; ✓ Kubernetes &nbsp; ✓ GitHub Actions</div>
+          <div class="term-line out">✓ Linux &nbsp; ✓ Python/Bash &nbsp; ✓ Embedded Systems</div>
+          <div class="term-line"><span class="prompt">$</span> <span class="cursor"></span></div>
+        </div>
+      </div>
+      <h1 class="name">Shafiq ur Rehman</h1>
+      <div class="role-line">DevOps &amp; Cloud Engineer</div>
+      <p class="hero-sub">I build CI/CD pipelines, containerized deployments, and cloud infrastructure with a hands-on foundation in Linux, networking, and embedded systems from designing real hardware-software products end to end.</p>
+      <div class="btn-row">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div>
+      <div class="chip-frame">
+        <span class="pin t1"></span><span class="pin t2"></span><span class="pin t3"></span><span class="pin t4"></span><span class="pin t5"></span>
+        <span class="pin b1"></span><span class="pin b2"></span><span class="pin b3"></span><span class="pin b4"></span><span class="pin b5"></span>
+        <span class="pin l1"></span><span class="pin l2"></span><span class="pin l3"></span><span class="pin l4"></span><span class="pin l5"></span>
+        <span class="pin r1"></span><span class="pin r2"></span><span class="pin r3"></span><span class="pin r4"></span><span class="pin r5"></span>
+        <img src="photo.jpg" alt="Shafiq ur Rehman">
+      </div>
+      <div class="chip-label">U1 — SHAFEE.IC</div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="eyebrow">// about</div>
+    <h2>Me</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I'm a Computer Science graduate from SZABIST University, with hands-on experience designing CI/CD pipelines, containerizing applications, and deploying cloud-based solutions using Docker, GitHub Actions, Linux, and AWS.</p>
+        <p>My foundation spans Linux system administration, networking, and cloud infrastructure, built through end-to-end DevOps projects and automation workflows from pipeline design to production deployment.</p>
+        <p>I focus on building reliable, automated systems: from CI/CD pipelines to container orchestration, with a practical eye toward the operational challenges that come with shipping software at scale. Currently looking for Junior DevOps Engineer, Cloud Engineer, or Graduate Program roles.</p>
+      </div>
+      <div>
+        <div class="stat-box"><div class="stat-num">4+</div><div class="stat-label">DevOps &amp; Cloud Projects Shipped</div></div>
+        <div class="stat-box"><div class="stat-num">7</div><div class="stat-label">Professional Certifications</div></div>
+        <div class="stat-box"><div class="stat-num">3.45</div><div class="stat-label">CGPA / 4.0 — BS Computer Science</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="eyebrow">// stack</div>
+    <h2>Technical Skills</h2>
+    <div class="skill-grid">
+      <div class="skill-card"><h4>Cloud Platforms</h4><ul><li>AWS — EC2, IAM, S3</li><li>VPC, Route 53</li><li>CloudWatch</li></ul></div>
+      <div class="skill-card"><h4>Containers &amp; Orchestration</h4><ul><li>Docker &amp; Compose</li><li>Kubernetes (Minikube)</li></ul></div>
+      <div class="skill-card"><h4>CI/CD &amp; Automation</h4><ul><li>GitHub Actions</li><li>Jenkins</li><li>Ansible</li></ul></div>
+      <div class="skill-card"><h4>Operating Systems</h4><ul><li>Linux (Ubuntu)</li><li>Bash / Shell Scripting</li></ul></div>
+      <div class="skill-card"><h4>Programming</h4><ul><li>Python, Java</li><li>C, Kotlin</li></ul></div>
+      <div class="skill-card"><h4>Version Control</h4><ul><li>Git, GitHub</li></ul></div>
+      <div class="skill-card"><h4>Networking</h4><ul><li>TCP/IP, DNS, SSH</li><li>VLANs, Packet Tracer</li></ul></div>
+      <div class="skill-card"><h4>Monitoring</h4><ul><li>AWS CloudWatch</li></ul></div>
+      <div class="skill-card"><h4>Embedded Systems</h4><ul><li>ESP32, I2S Audio</li><li>Firmware Design</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="eyebrow">// deploy</div>
+    <h2>Projects</h2>
+
+    <div class="proj">
+      <div class="proj-head">
+        <div class="proj-title">EngliTut — AI Language Assistant for the Visually Impaired</div>
+        <div class="proj-links">
+          <div class="proj-tag">Final Year Project</div>
+          <a href="https://github.com/yourusername/englitut" target="_blank" rel="noopener" class="gh-link">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+            Code
+          </a>
+        </div>
+      </div>
+      <div class="proj-stack">ESP32 · Flask · Python · Whisper · LLaMA 3.3 · gTTS · Wi-Fi</div>
+      <ul>
+        <li>Designed a wearable ESP32-based assistant that lets visually impaired users learn spoken English entirely through voice.</li>
+        <li>Built the full stack myself: embedded firmware, Flask backend, speech recognition, grammar analysis, and text-to-speech.</li>
+        <li>Integrated Whisper for speech recognition and LLaMA 3.3 for grammar correction and conversational feedback.</li>
+        <li>Worked through real hardware and firmware constraints to deliver a reliable embedded AI product.</li>
+      </ul>
+    </div>
+
+    <div class="proj">
+      <div class="proj-head">
+        <div class="proj-title">DevOps Capstone Project</div>
+        <div class="proj-links">
+          <div class="proj-tag">Capstone</div>
+          <a href="https://github.com/yourusername/devops-capstone" target="_blank" rel="noopener" class="gh-link">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+            Code
+          </a>
+        </div>
+      </div>
+      <div class="proj-stack">Docker · Kubernetes · GitHub Actions · AWS · Linux</div>
+      <ul>
+        <li>Built an end-to-end pipeline automating build, test, containerization, and deployment.</li>
+        <li>Implemented CI/CD workflows to automate the full release process.</li>
+        <li>Containerized the application and deployed it on Kubernetes for consistent, scalable delivery.</li>
+        <li>Applied DevOps practices across automation, infrastructure, and cloud delivery.</li>
+      </ul>
+    </div>
+
+    <div class="proj">
+      <div class="proj-head">
+        <div class="proj-title">NADRA AI Assistant — Dockerized RAG Chatbot</div>
+        <div class="proj-links">
+          <div class="proj-tag">AI / RAG</div>
+          <a href="https://github.com/yourusername/nadra-ai-assistant" target="_blank" rel="noopener" class="gh-link">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+            Code
+          </a>
+        </div>
+      </div>
+      <div class="proj-stack">Docker · AnythingLLM · OpenRouter API · Local LLM</div>
+      <ul>
+        <li>Built a Dockerized bilingual assistant answering NADRA-related queries in Urdu and English.</li>
+        <li>Configured AnythingLLM with a locally hosted knowledge base for domain-specific answers.</li>
+        <li>Integrated LLM APIs and tuned responses for accurate bilingual interaction.</li>
+        <li>Designed the system to run as a secure, locally deployable workflow.</li>
+      </ul>
+    </div>
+
+    <div class="proj">
+      <div class="proj-head">
+        <div class="proj-title">CI/CD Pipeline for a Flask Application</div>
+        <div class="proj-links">
+          <div class="proj-tag">Automation</div>
+          <a href="https://github.com/yourusername/flask-cicd-pipeline" target="_blank" rel="noopener" class="gh-link">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+            Code
+          </a>
+        </div>
+      </div>
+      <div class="proj-stack">GitHub Actions · Docker · Python · Flask</div>
+      <ul>
+        <li>Designed an automated pipeline covering build, dependency install, testing, and deployment.</li>
+        <li>Automated Docker image creation for consistent execution across environments.</li>
+        <li>Improved release reliability through fully automated delivery practices.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <div class="eyebrow">// background</div>
+    <h2>Education &amp; Certifications</h2>
+    <div class="split">
+      <div>
+        <div class="edu-card">
+          <h4>Bachelor of Science, Computer Science</h4>
+          <div class="sub">SZABIST University</div>
+          <div class="sub">2022 — 2026</div>
+          <div class="cgpa">CGPA: 3.45 / 4.0</div>
+        </div>
+      </div>
+      <div>
+        <ul class="cert-list">
+          <li>IBM DevOps and Software Engineering Professional Certificate (15-course specialization + Capstone)</li>
+          <li>AWS Cloud Fundamentals</li>
+          <li>Docker &amp; GitHub Actions CI/CD</li>
+          <li>Linux Administration &amp; Shell Scripting</li>
+          <li>Jenkins &amp; CI/CD Pipeline</li>
+          <li>Ansible</li>
+          <li>DevOps and AI on AWS (AIOps)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact-sec">
+  <div class="wrap">
+    <div class="eyebrow" style="justify-content:center;">// connect</div>
+    <h2>Let's Build Something Reliable</h2>
+    <p>Open to Junior DevOps Engineer, Cloud Engineer, and Graduate Program roles. Reach out: happy to talk about pipelines, infra, or embedded systems.</p>
+    <div class="contact-row">
+  <a href="mailto:shafeeejakhro1090@gmail.com" class="btn btn-icon" aria-label="Email">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M22 6 12 13 2 6"/></svg>
+  </a>
+  <a href="https://www.linkedin.com/in/shafee1212/" target="_blank" rel="noopener" class="btn btn-icon" aria-label="LinkedIn">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0H5a5 5 0 0 0-5 5v14a5 5 0 0 0 5 5h14a5 5 0 0 0 5-5V5a5 5 0 0 0-5-5zM8 19H5V9h3zM6.5 7.7A1.7 1.7 0 1 1 6.5 4.3a1.7 1.7 0 0 1 0 3.4zM20 19h-3v-5.4c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V19h-3V9h2.9v1.3h.1c.4-.8 1.4-1.7 2.9-1.7 3.1 0 3.7 2 3.7 4.7z"/></svg>
+  </a>
+  <a href="tel:+923030097799" class="btn btn-icon" aria-label="Phone">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"/></svg>
+  </a>
+  <a href="https://github.com/ShafeeJakhro" target="_blank" rel="noopener" class="btn btn-icon" aria-label="GitHub">
+    <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+  </a>
+</div>
+  </div>
+</section>
+
+<footer>
+  <span class="accent">$</span> echo "Built in Karachi, Pakistan" <span class="accent">// 2026</span>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
