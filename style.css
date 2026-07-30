@@ -224,6 +224,14 @@ h1.name .accent{color:var(--green);}
   transition:all 0.2s;
 }
 .gh-link:hover{color:var(--green); border-color:var(--green-dim);}
+/* NEW — Docker Hub button */
+.dh-link:hover{color:#1D9BF0; border-color:#1D9BF0;}
+/* NEW — groups GitHub + Docker Hub side by side */
+.proj-link-group{display:flex; gap:8px; flex-wrap:wrap;}
+/* NEW — inline code style for /metrics etc */
+.proj code{font-family:var(--mono); font-size:13px; color:var(--green); background:var(--surface-2); padding:1px 6px; border-radius:4px;}
+
+
 .proj-stack{font-family:var(--mono); font-size:12px; color:var(--orange); margin-bottom:14px;}
 .proj ul{list-style:none;}
 .proj li{font-size:14.5px; color:var(--muted); margin-bottom:8px; padding-left:18px; position:relative;}
